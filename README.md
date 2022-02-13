@@ -10,6 +10,7 @@ Zadanie zostało wykonane według [kryteriów](https://github.com/goitacademy/ht
 ## Technologie
 - HTML5
 - CSS3
+- JS
 
 ## Contact
 Created by [Anna Ojdana](https://pl.linkedin.com/in/anna-ojdana-104b05225) 
