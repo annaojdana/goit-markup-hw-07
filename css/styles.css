@@ -406,6 +406,51 @@ FOOTER
 .footer-elipse-icon {
   background-color: rgba(255, 255, 255, 0.1);
 }
+.footer-newsletter-box {
+  margin-left: 78px;
+}
+.newsletter {
+  display: flex;
+}
+.newsletter-input {
+  margin-top: 20px;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background: none;
+}
+.newsletter-btn {
+  width: 200px;
+  height: 50px;
+  background-color: var(--main-color);
+  color: var(--white-color);
+  margin-left: 12px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  /* position: relative; */
+}
+.newsletter-btn span {
+  /* position: absolute; */
+  /* left: 42px;
+  top: 10px; */
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  margin-left: 42px;
+  margin-right: 24px;
+}
+.newsletter-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  /* position: absolute; */
+  /* top: 13px;
+  left: 148px; */
+}
 /* ===========
 modal window 
 ============= */
@@ -429,8 +474,8 @@ modal window
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
-.animated-modal{
-animation: animateModal 4s;
+.animated-modal {
+  animation: animateModal 4s;
 }
 @keyframes animateModal {
   from {
