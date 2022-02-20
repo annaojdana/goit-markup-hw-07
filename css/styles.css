@@ -414,43 +414,44 @@ FOOTER
 }
 .newsletter-input {
   margin-top: 20px;
+  padding-left: 16px;
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background: none;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.newsletter-input::placeholder{
+  color: rgba(255, 255, 255, 0.6);
 }
 .newsletter-btn {
+  position: relative;
   width: 200px;
   height: 50px;
   background-color: var(--main-color);
   color: var(--white-color);
   margin-left: 12px;
   margin-top: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: left;
   padding: 0;
-  /* position: relative; */
 }
-.newsletter-btn span {
-  /* position: absolute; */
-  /* left: 42px;
-  top: 10px; */
+.newsletter-btn-text {
   font-weight: 700;
   letter-spacing: 0.06em;
   margin-left: 42px;
-  margin-right: 24px;
 }
-.newsletter-icon {
+.newsletter-btn-text::after {
+  content: url("../images/svg/icon_send.svg");
   width: 24px;
   height: 24px;
-  margin-right: 8px;
-  /* position: absolute; */
-  /* top: 13px;
-  left: 148px; */
+  position: absolute;
+  left: 148px;
+  top: 13px;
 }
+
 /* ===========
 modal window 
 ============= */
