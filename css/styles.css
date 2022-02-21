@@ -488,7 +488,6 @@ modal window
     opacity: 1;
   }
 }
-
 .close-btn {
   position: absolute;
   right: 8px;
@@ -542,6 +541,8 @@ modal window
   padding-left: 42px;
   color: var(--dark-heading-color);
   font-size: 12px;
+  transition: outline 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-input:focus {
   outline: 1px solid var(--main-color);
@@ -563,9 +564,9 @@ modal window
   letter-spacing: 0.03em;
   color: var(--grey-color);
 }
-.policy-box{
- position: relative;
- padding-top: 25px;
+.policy-box {
+  position: relative;
+  padding-top: 25px;
 }
 .policy-declaration a {
   color: var(--main-color);
@@ -579,6 +580,8 @@ modal window
   height: 15px;
   outline: 1px solid var(--dark-heading-color);
   border-radius: 2px;
+  transition: outline 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-checkbox-policy_declaration:checked + .policy-declaration::before {
   background-color: var(--main-color);
