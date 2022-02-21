@@ -278,10 +278,28 @@
     </footer>
     <!-- modal window -->
     <div class="backdrop is-hidden" data-modal>
-        <div class="modal" data-modal-window><button class="close-btn" type="button" data-modal-close><svg
-                    class="modal-icon" width="11" height='11'>
+        <div class="modal" data-modal-window>
+            <div class="modal-form-box">
+                <h4 class="modal-form-heading">Zostaw swoje dane w formularzu poniżej</h4>
+                <form class="modal-form">
+                    <label for="user_name" class="modal-form-label">Imię</label>
+                    <input type="text" id="user_name" class="modal-form-input user-name-icon">
+                    <label for="user_tel" class="modal-form-label">Telefon</label>
+                    <input type="tel" id="user_tel" class="modal-form-input tel-icon">
+                    <label for="user_email" class="modal-form-label">Email</label>
+                    <input type="email" id="user_email" class="modal-form-input email-icon">
+                    <label for="user_msg" class="modal-form-label">Komentarz</label>
+                    <textarea name="massage" id="user_msg" class="modal-form-input modal-form-textarea" placeholder="Wprowadź tekst"></textarea>
+                    <div class="policy-box"><input type="checkbox" id="policy_declaration" class="modal-checkbox-policy_declaration visual-hidden">
+                    <label for="policy_declaration" class="policy-declaration">Oświadczam iż akceptuję <a
+                            href="#">Regulamin</a> i <a href="#">Politykę Prywatności</a>.</label></div>
+                    <button type="submit" class="modal-form-btn">Wyślij</button>
+                </form>
+            </div>
+            <button class="close-btn" type="button" data-modal-close><svg class="modal-icon" width="11" height='11'>
                     <use href="./images/svg/sprite.svg#icon-iks"></use>
-                </svg></button></div>
+                </svg></button>
+        </div>
     </div>
     <script src="./js/modal.js"></script>
 </body>
