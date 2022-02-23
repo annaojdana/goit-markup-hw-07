@@ -5,7 +5,7 @@ Projekt powstał w ramach kursu FULLSTACK PROGRAMISTA OD ZERA
 
 ## Szczegóły projektu
 
-Zadanie zostało wykonane według [kryteriów](https://github.com/goitacademy/html-css-homework/blob/master/6-forms/README.pl.md). 
+Zadanie zostało wykonane według [kryteriów](https://github.com/goitacademy/html-css-homework/blob/master/6-forms/README.pl.md).
 
 ## Technologie
 - HTML5
