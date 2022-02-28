@@ -12,28 +12,27 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/modern-normalize.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
     <header>
         <nav>
             <div class="container">
-
-                <div class="header-nav">
-                    <a href="index.html" class="logo"><span class="logo-item">Web</span>Studio</a>
-                    <ul class="nav-items">
-                        <li><a class="nav-item" href="index.html">Agencja</a></li>
-                        <li><a class="nav-item active-page" href="portfolio.html">Portfolio</a></li>
-                        <li><a class="nav-item" href="contact.html">Kontakt</a></li>
+                <div class="nav">
+                    <a href="index.html" class="logo logo--dark"><span class="logo__item">Web</span>Studio</a>
+                    <ul class="nav__list">
+                        <li><a class="nav__item " href="index.html">Agencja</a></li>
+                        <li><a class="nav__item active-page" href="portfolio.html">Portfolio</a></li>
+                        <li><a class="nav__item" href="contact.html">Kontakt</a></li>
                     </ul>
-                    <ul class="header-address">
-                        <li><a class="nav-item contact-details nav-mail" href="mailto:info@example.com"><svg
-                                    class="adress-icon" width="16" height='12'>
+                    <ul class="nav__address-box">
+                        <li><a class="nav__item nav__contact-details nav__item-mail" href="mailto:info@example.com"><svg
+                                    class="nav__icon" width="16" height='12'>
                                     <use href="./images/svg/sprite.svg#icon-envelope"></use>
                                 </svg>info@devstudio.com</a></li>
-                        <li><a class="nav-item contact-details" href="tel:+48111111111"><svg class="adress-icon"
-                                    width="10" height='16'>
+                        <li><a class="nav__item nav__contact-details" href="tel:+48111111111"><svg class="nav__icon" width="10"
+                                    height='16'>
                                     <use href="./images/svg/sprite.svg#icon-smartphone"></use>
                                 </svg>+48 111 111 111</a></li>
                     </ul>
@@ -45,11 +44,11 @@
         <section class="portfolio">
             <div class="container">
                 <ul class="portfolio-btns">
-                    <li><button type="button" class="portfolio-btn">Wszystkie</button></li>
-                    <li><button type="button" class="portfolio-btn">Strony</button></li>
-                    <li><button type="button" class="portfolio-btn">Aplikacje</button></li>
-                    <li><button type="button" class="portfolio-btn">Dizajn</button></li>
-                    <li><button type="button" class="portfolio-btn">Marketing</button></li>
+                    <li><button type="button" class="portfolio-btn btn btn--filter">Wszystkie</button></li>
+                    <li><button type="button" class="portfolio-btn btn btn--filter">Strony</button></li>
+                    <li><button type="button" class="portfolio-btn btn btn--filter">Aplikacje</button></li>
+                    <li><button type="button" class="portfolio-btn btn btn--filter">Dizajn</button></li>
+                    <li><button type="button" class="portfolio-btn btn btn--filter">Marketing</button></li>
                 </ul>
 
 

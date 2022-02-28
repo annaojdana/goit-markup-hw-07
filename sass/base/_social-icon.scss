@@ -1,0 +1,25 @@
+.social-icon {
+  width: 20px;
+  height: 20px;
+  fill: $social-icon-color;
+  transition: fill 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.elipse-icon {
+  margin-right: 10px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.elipse-icon:hover,
+.elipse-icon:focus {
+  background-color: $main-color;
+}
+.elipse-icon:hover .social-icon,
+.elipse-icon:focus .social-icon {
+  fill: $white-color;
+}
