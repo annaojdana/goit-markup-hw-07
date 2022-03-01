@@ -9,7 +9,7 @@ Zadanie zostało wykonane według [kryteriów](https://github.com/goitacademy/ht
 
 ## Technologie
 - HTML5
-- CSS3
+- SCSS
 - JS
 
 ## Contact
